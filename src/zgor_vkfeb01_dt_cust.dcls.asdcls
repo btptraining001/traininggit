@@ -1,0 +1,6 @@
+@EndUserText.label: 'ZGOR_VKFEB01_DT_CUST'
+@MappingRole: true
+define role ZGOR_VKFEB01_DT_CUST {
+  grant select on ZGOR_VKFEB01_DT_CUST
+  where TRUE;
+}

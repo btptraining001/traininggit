@@ -1,0 +1,6 @@
+@EndUserText.label: 'ZGOC_VKFEB01_DT_CUST'
+@MappingRole: true
+define role ZGOC_VKFEB01_DT_CUST {
+  grant select on ZGOC_VKFEB01_DT_CUST
+  where INHERITING CONDITIONS FROM ENTITY ZGOR_VKFEB01_DT_CUST REPLACING { ROOT WITH _BaseEntity };
+}
